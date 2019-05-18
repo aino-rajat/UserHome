@@ -1,177 +1,260 @@
-// .menu-horizontal{
-//     background-color: rgb(46, 133, 214);
-//   }
 
-// ul {
-//     list-style-type: none;
-//     margin: 0;
-//     padding: 0;
-//     overflow: hidden;
-//     margin-left: 64%;
-//   }
-  
-//   li {
-//     float: left;
-//   }
-  
-//   li a {
-//     display: inline-block;
-//     color: white;
-//     text-align: center;
-//     padding: 14px 16px;
-//     text-decoration: none;
-//   }
-//   .main-container{
-//     height: 90%;
-//     width:100%;
-//   }
+html {
+  box-sizing: border-box;
+}
 
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+  font-weight: 700;
+  font-family: Lato,helvetica,arial,sans-serif;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.content-wrap-1 {
+	    display: inline-flex;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.col-narrow-1{
+  width: 30%;
+  display:inline-block;
+  height: auto;
+}
 
-html, body {
+.col-narrow-2{
+  width: 30%;
+  display:inline-block;
+  height: auto;
+}
+
+.col-narrow-3{
+  width: 30%;
+  display:inline-block;
+  height: auto;
+}
+
+.col-wide {
+
+  width: 58%;
+  height: auto;
+  float: right;
+  padding-left: 3px;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+
+header{
+     background: #6570e4;
+    color: #d8dde6;
+  width:100%;
+}
+
+.main-text{
+	width:70px;
+	height:auto;
+	
+}
+.logo{
+	width: 110px;
+    float: left;
+    margin-left: 29px;
+}
+
+/* header */
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+.profile-img {
+      border-radius: 21%;
+}
+
+/* footer */
+footer {
   text-align: center;
-  }
-  p {text-align: left;}
-  
-  #page
-  {
-    margin: 0 auto 0 auto; 
-    margin-top: 0;
-    display: block; 
-    height:auto;
-    position: relative; 
-    overflow: hidden; 
-    width: 100%;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    //background-image:url(background.png);
-    background-color:rgb(130, 130, 236);
-    text-align: left;
-    font-family: Georgia, Times New Roman, Times, serif;
-    font-size: 13px;
-    color: #F1F5F8;
-  }
-  *
-  {
-    margin: 0 auto 0 auto;
-   text-align:left;}
-  
-  
-  html, body {
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Navigation
+-------------------------*/
+nav {
   text-align: center;
-  }
-  p {text-align: left;}
-  
-  #main 
-  {
-  width:916px;
-  margin-top:30px;
-  margin-bottom:15px;
-  height: 508px;
-  }
-  
-  #header
-  {
- // background-image:url(header.png);
- background-color: white;
- width: 100%;
-  }
-  
+      background-color: white;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
-  
-  
-  #header ul {
-  display:block;
-    padding: 0px;
-    list-style-type: none;
-    overflow:hidden;
-    width: 517px;
-    float: right;
-    margin-right: 65px;
-  }
-  #header ul li , #header ul li a, #header ul li a:visited{
-    float:left;
-    margin: 0px;
-    text-align:center;
-    line-height:40px;
-    font-size:16px;
-    font-weight:bold;
-    text-decoration:none;
-    padding-left:10px;
-    padding-right:10px;
+
+
+/* Products
+-------------------------*/
+.products {
+  background: #EDF2F4;
+  padding:10px;
+}
+
+.products-div{
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+
+}
+.product-image-1{
+  height: 182px;
+  width:70%;
+}
+.product-image-2{
+  height: 236px;
+  width:70%;
+}
+
+.product-image-5{
+  height: 201px;
+  width: 70%;
+}
+.product-image-3{
+  height: 203px;
+  width: 78%; 
+}
+
+
+#contact {
+  background-color:#ecd9f121;
+  width:100%;
+  height:auto;
+}
+
+.contact-map{
+    width: 45%;
+    display: block;
+    height: auto;
+    float: left;
+}
+.col-wide-contact-address{
+  width: 53%;
+  height: auto;
+  float: right;
+  padding-left: 3px;
+}
+
+#contact-heading{
+      color: black;
+}
+
+hr{
+  border-color: #ececec;  
+  margin: 1.85714286em 0;
+  clear: both;
+}
+
+.contact-address{
+  margin-bottom: 1.85714286em;
+}
+
+.wpb_wrapper{
+  margin-top: 31px;
+  width: max-content;
+  float: left;
   }
 
-  a{
-    text-decoration-color:black;
+  .col-wide-smartcard-verified{
+    width: 53%;
+  height: auto;
+  float: right;
+  padding-left: 3px;
   }
-  
-  #header ul li a:hover{
-  color:#C9E1FA;
+
+  .smart-checkin{
+    width: 453px;
+    height: 400px;
+    margin-top: -20px;
+    position: inherit;
   }
-  
-  #main .main_left
-  {
-  width:458px;
-  background-repeat:no-repeat;
-  text-align:center;
-  float:left;
-  height:auto;
+  h5{
+    text-transform: uppercase;
+  color:#5f3dde;
   }
-  
-  
-  
-  #main .main_left
-  {
-  width:458px;
-  background-repeat:no-repeat;
-  text-align:center;
-  float:left;
-  }
-  
-  #main .main_left h1
-  {
-  padding-top:20px;
-  padding-left:40px;
-  color:#FFFFFF;
-  font-size:28px;
-  }
-  
-  #main .main_left h3
-  {
-  padding-bottom:20px;
-  padding-left:50px;
-  color:#C9E1FA;
-  font-size:18px;
-  }
-  
-  
-  
-  #main .main_right
-  {
-  padding-left:0px;
-  height:auto;
-  width:458px;
- // background-image:url(main_body.png);
-  background-repeat:repeat-y;
-  color:#FFFFFF;
-  padding-bottom:20px;
-  float:left;
-  }
-  
-  #main .main_right h2
-  {
-  font:Verdana, Arial, Helvetica, sans-serif;
-  font-size:24px;
-  padding-bottom:15px;
-  }
-  
-  #main .main_right p
-  {
-  line-height:20px;
-  }
-  
-  
-  
-  
+
+
+.email-id{
+  font-size: 1em;
+  text-decoration: underline;
+  font-weight: 400;
+  line-height: 1.85714286em;
+  color:blue;
+}
+.wpb_wrapper{
+width: max-content;
+float: left;
+}
+h5{
+  text-transform: uppercase;
+color:#5f3dde;
+}
+
+.formdiv{
+  width: 45%;
+  margin-left: 100px;
+}
+.form{
+  padding: 10px;
+}
+ 
+input{
+  width: 316px;
+font-size: large;
+border-radius: 7px;
+text-align: center;
+}
+
+.submit{
+  letter-spacing: .5px;
+  width: 155%;
+  margin-right: -.5px;
+  color: #c7dae4;
+  background-color: #4481dc;
+  border-radius: 19px;
+  height: 40px;
+}
