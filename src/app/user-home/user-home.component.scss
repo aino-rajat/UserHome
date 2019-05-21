@@ -38,7 +38,6 @@ a:hover {
 }
 .content-wrap-1 {
 	      /* max-width: 950px; */
-  
   margin: 0 auto;
   padding: 50px;
   overflow: hidden;
@@ -53,18 +52,21 @@ a:hover {
   width: 30%;
   display:inline-block;
   height: auto;
+
 }
 
 .col-narrow-2{
   width: 30%;
   display:inline-block;
   height: auto;
+
 }
 
 .col-narrow-3{
   width: 30%;
   display:inline-block;
   height: auto;
+
 }
 .slogan{
   font-size: 2.142857em;
@@ -112,7 +114,7 @@ header h1, header h2 {
       border-radius: 21%;
       width: 70%;
       height: auto;
-      margin-top: -57px;
+      margin-top: -114px;
       margin-left: 141px;
 }
 
@@ -153,8 +155,14 @@ nav a {
   display: inline-block;
   width: 100%;
   padding: 10px;
-
 }
+.products-div-1{
+display: inline-block;
+width: 100%;
+padding: 10px;
+text-align: -webkit-center;
+}
+
 .product-image-1{
   height: 182px;
   width:70%;
@@ -173,6 +181,11 @@ nav a {
   height: 203px;
   width: 78%; 
 }
+
+
+
+
+
 
 .grid-container {
   display: grid;
@@ -222,7 +235,6 @@ font-weight: 700!important;
   position: relative;
   right: 22px;
 }
-
 
 .item2 .h1{
   font-size: 3.214286em;
@@ -324,9 +336,28 @@ font-weight: 700!important;
   border-radius: 12px; 
 }
 
+p{
+    line-height: 1.857143em;
+    padding: 0;
+    font-family: serif;
+   font-size: medium;
+}
 
+.horizontal-line{
+  border-color: #ececec;  
+  margin: 1.85714286em 0;
+  clear: both;
+  width: 250px;
+}
 
-
+.Learn-more {
+border: 1px solid #5AA1E3;
+background-color: transparent;
+}
+.learn{
+  text-decoration: none;
+  color: #5AA1E3;
+}
 
 
 
@@ -357,6 +388,7 @@ hr{
   border-color: #ececec;  
   margin: 1.85714286em 0;
   clear: both;
+ 
 }
 
 .contact-address{
