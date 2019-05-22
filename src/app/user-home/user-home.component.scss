@@ -66,6 +66,7 @@ a:hover {
   width: 30%;
   display:inline-block;
   height: auto;
+  padding:10px;
 
 }
 .slogan{
@@ -132,7 +133,10 @@ footer {
 -------------------------*/
 nav {
   text-align: center;
-      background-color: white;
+  background-color: white;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 nav a {
   display: inline-block;
@@ -171,13 +175,20 @@ text-align: -webkit-center;
   height: 236px;
   width:70%;
 }
-
+.product-image-3{
+  height: 203px;
+  width: 78%; 
+}
+.product-image-4{
+  height: 198px;
+  width: 78%; 
+}
 .product-image-5{
   height: 201px;
-  width: 70%;
-  
+  width: 70%; 
 }
-.product-image-3{
+
+.product-image-6{
   height: 203px;
   width: 78%; 
 }
@@ -350,13 +361,19 @@ p{
   width: 250px;
 }
 
+.horizontal-line-1{
+  border-color:#a79d9d; 
+  margin: 1.85714286em 0;
+  width: 250px;
+}
+
 .Learn-more {
 border: 1px solid #5AA1E3;
 background-color: transparent;
 }
 .learn{
   text-decoration: none;
-  color: #5AA1E3;
+  color:  #242729;
 }
 
 
@@ -384,11 +401,16 @@ background-color: transparent;
       color: black;
 }
 
+.contact-address-horizontal{
+  border-color:#a09b9b;  
+  margin: 1.85714286em 0;
+  clear: both;
+}
+
 hr{
   border-color: #ececec;  
   margin: 1.85714286em 0;
   clear: both;
- 
 }
 
 .contact-address{

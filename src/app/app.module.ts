@@ -6,22 +6,28 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserHomeComponent } from './user-home/user-home.component';
 import {MatButtonModule} from '@angular/material/button';
+import { LoginComponent } from './login/login.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserHomeComponent
+    UserHomeComponent,
+    LoginComponent,
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
    
 
   ],
+  entryComponents:[LoginComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
