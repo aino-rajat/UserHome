@@ -1,0 +1,12 @@
+.text-danger{
+    cursor: pointer;
+}
+
+a{
+text-decoration: none;
+}
+.logoutbtn{
+    margin-left: 92%;
+    align-content: center;
+    cursor: pointer;
+}

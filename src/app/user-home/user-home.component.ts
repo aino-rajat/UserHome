@@ -16,7 +16,7 @@ export class UserHomeComponent implements OnInit {
   
   login():void{
     this.dialog.open(LoginComponent,{
-      width: '100vw', height: '50vw'
+      width: '70vw', height: '60vh'
     });
   }
 }

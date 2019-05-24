@@ -1,0 +1,19 @@
+<div class="home" id="homepage">
+        <button mat-raised-button class="logoutbtn" (click)="logout()">
+                Logout
+                    </button>
+<h1>Hi {{currentUser.firstName}}!</h1>
+<p>You're logged in </p>
+<h3> registered users:</h3>
+<ul>
+    <li *ngFor="let user of users">
+        User Name - {{user.username}} 
+        Frist Name: {{user.firstName}}
+         Last Name: {{user.lastName}}
+         <a (click)="deleteUser(user.id)" class="text-danger">DeleteAccount</a>
+    </li>
+</ul>
+
+
+    
+</div>
