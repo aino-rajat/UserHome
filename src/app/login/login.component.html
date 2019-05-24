@@ -1,5 +1,5 @@
-<button mat-icon-button class="iconbutton">
-  <mat-icon (click)="onCancel()">clear</mat-icon>
+<button mat-icon-button mat-dialog-close class="iconbutton">
+  <mat-icon >clear</mat-icon>
 </button>
 <div class="registerForm">
 <h2>Login</h2>
@@ -27,10 +27,11 @@
     <div class="form-group">
       <button mat-raised-button [disabled]="loading" color="primary"> Login</button>
      
-      <button mat-raised-button>
+      <button mat-raised-button  mat-dialog-close>
       <a [routerLink]="['/UserSignup']" class="btn btn-link">Register</a>
         </button>
     </div>
+  
     </form>
     </div>
   
